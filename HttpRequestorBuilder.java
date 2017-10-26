@@ -1,4 +1,4 @@
-package com.example.acoustically.http.Http;
+package AndroidHttpRequest;
 
 import java.net.HttpURLConnection;
 import java.net.URL;

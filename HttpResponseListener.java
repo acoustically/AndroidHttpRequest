@@ -1,4 +1,4 @@
-package com.example.acoustically.http.Http;
+package AndroidHttpRequest;
 
 import android.os.Handler;
 import android.os.Looper;
