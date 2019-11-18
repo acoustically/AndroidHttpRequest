@@ -1,9 +1,8 @@
-package AndroidHttpRequest;
+package kr.co.lylstudio.myapplication.AndroidHttpRequest;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.util.Log;
 
 /**
  * Created by acoustically on 17. 10. 25.

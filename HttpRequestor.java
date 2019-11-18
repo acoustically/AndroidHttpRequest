@@ -1,7 +1,6 @@
-package AndroidHttpRequest;
+package kr.co.lylstudio.myapplication.AndroidHttpRequest;
 
 import android.os.Message;
-import android.util.Log;
 
 import org.json.JSONObject;
 
@@ -9,17 +8,18 @@ import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.net.HttpURLConnection;
+
+import javax.net.ssl.HttpsURLConnection;
 
 /**
  * Created by acoustically on 17. 10. 25.
  */
 
 public class HttpRequestor {
-  private HttpURLConnection mConnection;
+  private HttpsURLConnection mConnection;
   private Exception mBuildException;
 
-  public HttpRequestor(HttpURLConnection mConnection, Exception e) {
+  public HttpRequestor(HttpsURLConnection mConnection, Exception e) {
     this.mConnection = mConnection;
     this.mBuildException = e;
   }
